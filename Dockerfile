@@ -4,11 +4,11 @@ FROM openshift/base-centos7
 
 MAINTAINER None
 
-EXPOSE 80 443
+EXPOSE 8080
 
 LABEL io.k8s.description="Platform for serving web sites using Apache" \
       io.k8s.display-name="Apache Static Webserv" \
-      io.openshift.expose-services="80:http,443:https" \
+      io.openshift.expose-services="8080:http" \
       io.openshift.tags="builder,httpd,apache,apache2"
 
 # Install Caddy
