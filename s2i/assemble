@@ -14,7 +14,7 @@ function finish {
 trap finish EXIT
 
 echo "---> Preparing source..."
-cp -Rf /tmp/src/. $HOME
+cp -Rf /tmp/src/. /var/www/html/
 
 echo
 echo "===> Build completed at $(date)"

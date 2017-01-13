@@ -3,4 +3,4 @@
 set -e
 
 cd $HOME
-exec caddy -agree
+exec /usr/sbin/httpd -DFOREGROUND

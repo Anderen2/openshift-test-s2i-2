@@ -1,9 +1,9 @@
 #!/bin/sh
 
-IMAGEVER=$($CADDY_VERSION | sed s/\.//)
+IMAGEVER=0.1
 
 cat <<EOF
-This is a S2I Caddy $CADDY_VERSION CentOS base image:
+This is a S2I Apache Static Server CentOS base image:
 To use it, install S2I: https://github.com/openshift/source-to-image
 
 Sample invocation:
